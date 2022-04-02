@@ -1,0 +1,44 @@
+.header{
+    background-color: bisque;
+}
+.card{
+    /* border:1px solid rgb(0, 0, 0,0.1); */
+    padding-top: 50px;
+    margin:auto;
+    width:50vw;
+    gap:1rem;
+    /* margin-left: 500px;
+    margin-right: 500px; */
+    padding-bottom: 30px;
+    /* background-color: rgb(0, 139, 139,0.5); */
+    display: grid;
+    /* grid-template: 150px / auto auto auto; */
+    grid-template-columns: 1fr 1fr;
+ 
+}
+.price{
+    padding-left:10px;
+}
+.filter-btn{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    padding: 0.5rem;
+    margin:4px;
+    margin-bottom: 20px;
+    border-radius: 0.7rem;
+    background-color: darkcyan;
+    cursor:pointer;
+}
+.filter-btn:hover{
+    background-color:bisque;
+}
+.img-res{
+    width:250px;
+    height: 200px;
+    box-shadow: 10px -4px 5px 0px rgba(0,0,0,0.75);
+}
+.text{
+    margin:auto;
+    width:70%;
+    /* margin-bottom: 15px; */
+}
